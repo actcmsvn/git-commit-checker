@@ -1,0 +1,48 @@
+{
+  "name": "actcmsvn/git-commit-checker",
+  "description": "Check coding standard & code syntax with Git pre-commit hook.",
+  "type": "package",
+  "license": "MIT",
+  "keywords": [
+    "cms",
+    "actcms",
+    "actcms platform",
+    "actcms git commit checker"
+  ],
+  "homepage": "https://actcms.io.vn",
+  "authors": [
+    {
+      "name": "ACTCMS Vietnam",
+      "email": "info@actcms.io.vn"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "ACTCMS\\GitCommitChecker\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "ACTCMS\\GitCommitChecker\\Tests\\": "tests"
+    }
+  },
+  "require": {
+    "php": "^8.0|^8.1|^8.2",
+    "laravel/framework": "^9.32|^10.0||^11.0",
+    "laravel/pint": "^1.5"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0|^10.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "ACTCMS\\GitCommitChecker\\Providers\\GitCommitCheckerServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "stable"
+}
