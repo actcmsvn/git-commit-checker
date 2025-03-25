@@ -1,6 +1,6 @@
 <?php
 
-namespace Botble\GitCommitChecker\Providers;
+namespace ACTCMS\GitCommitChecker\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
