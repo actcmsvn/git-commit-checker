@@ -18,12 +18,12 @@
   ],
   "autoload": {
     "psr-4": {
-      "Botble\\GitCommitChecker\\": "src"
+      "ACTCMS\\GitCommitChecker\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Botble\\GitCommitChecker\\Tests\\": "tests"
+      "ACTCMS\\GitCommitChecker\\Tests\\": "tests"
     }
   },
   "require": {
@@ -37,7 +37,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Botble\\GitCommitChecker\\Providers\\GitCommitCheckerServiceProvider"
+        "ACTCMS\\GitCommitChecker\\Providers\\GitCommitCheckerServiceProvider"
       ]
     }
   },
