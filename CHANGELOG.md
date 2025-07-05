@@ -2,7 +2,7 @@
 
 All notable changes to `actcmsvn/git-commit-checker` will be documented in this file.
 
-## 2.1.2 - 2025-03-12
+## 2.1.2 - 2025-07-05
 
 - Bump version `laravel/pint`
 
