@@ -1,9 +1,9 @@
 <?php
 
-namespace ACTCMS\GitCommitChecker\Providers;
+namespace Actcmsvn\GitCommitChecker\Providers;
 
-use ACTCMS\GitCommitChecker\Commands\InstallCommand;
-use ACTCMS\GitCommitChecker\Commands\PreCommitHookCommand;
+use Actcmsvn\GitCommitChecker\Commands\InstallCommand;
+use Actcmsvn\GitCommitChecker\Commands\PreCommitHookCommand;
 use Illuminate\Support\ServiceProvider;
 
 class CommandServiceProvider extends ServiceProvider

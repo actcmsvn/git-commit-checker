@@ -1,6 +1,6 @@
 <?php
 
-namespace ACTCMS\GitCommitChecker\Commands;
+namespace Actcmsvn\GitCommitChecker\Commands;
 
 use Illuminate\Console\Application;
 use Illuminate\Console\Command;

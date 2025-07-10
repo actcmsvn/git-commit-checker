@@ -1,29 +1,29 @@
 {
   "name": "actcmsvn/git-commit-checker",
-  "description": "Kiểm tra tiêu chuẩn mã hóa và cú pháp mã bằng Git pre-commit hook.",
+  "description": "Check coding standard & code syntax with Git pre-commit hook.",
   "type": "package",
   "license": "MIT",
   "keywords": [
-    "cms",
-    "actcms",
-    "actcms platform",
-    "actcms git commit checker"
+    "actcmsvn",
+    "actcmsvn cms",
+    "actcmsvn platform",
+    "actcmsvn git commit checker"
   ],
-  "homepage": "https://actcms.io.vn",
+  "homepage": "https://actcmsvn.com",
   "authors": [
     {
-      "name": "ACTCMS Vietnam",
-      "email": "info@actcms.io.vn"
+      "name": "Sang Nguyen",
+      "email": "sangnguyenplus@gmail.com"
     }
   ],
   "autoload": {
     "psr-4": {
-      "ACTCMS\\GitCommitChecker\\": "src"
+      "Actcmsvn\\GitCommitChecker\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "ACTCMS\\GitCommitChecker\\Tests\\": "tests"
+      "Actcmsvn\\GitCommitChecker\\Tests\\": "tests"
     }
   },
   "require": {
@@ -37,7 +37,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "ACTCMS\\GitCommitChecker\\Providers\\GitCommitCheckerServiceProvider"
+        "Actcmsvn\\GitCommitChecker\\Providers\\GitCommitCheckerServiceProvider"
       ]
     }
   },

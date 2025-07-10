@@ -1,6 +1,6 @@
 <?php
 
-namespace ACTCMS\GitCommitChecker\Providers;
+namespace Actcmsvn\GitCommitChecker\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

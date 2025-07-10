@@ -1,6 +1,6 @@
 <?php
 
-namespace ACTCMS\GitCommitChecker\Tests;
+namespace Actcmsvn\GitCommitChecker\Tests;
 
 use PHPUnit\Framework\TestCase;
 
